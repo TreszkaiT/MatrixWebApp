@@ -1,0 +1,14 @@
+# mem: a h2-es adatbázisunk In-Memory adatbázis lesz = ha elindítjuk az alkalmazást -> létrejön az adatbázis,;;;;; ha leállítjuk az alkalmazást -> kitörlődik
+spring:
+  datasource:
+    url: jdbc:h2:mem:users
+    username: admin
+    password: password
+  h2:
+    console:
+      enabled: true
+
+# localhost:8080/swagger-ui/index.html : -> itt nyílik meg a böngészőben
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

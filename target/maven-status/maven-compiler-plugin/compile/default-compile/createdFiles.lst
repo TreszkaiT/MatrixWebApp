@@ -1,0 +1,8 @@
+hu\nye\webapp\users\Application.class
+hu\nye\webapp\users\controller\MatrixController.class
+hu\nye\webapp\users\dto\MatrixDTO.class
+hu\nye\webapp\users\repository\MatrixRepository.class
+hu\nye\webapp\users\service\MatrixService.class
+hu\nye\webapp\users\service\impl\MatrixServiceImpl.class
+hu\nye\webapp\users\configuration\UtilConfiguration.class
+hu\nye\webapp\users\entity\Matrix.class
